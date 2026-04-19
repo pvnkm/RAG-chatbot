@@ -69,8 +69,8 @@ chatbot/
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/your-username/rag-chatbot-langchain-groq.git
-cd rag-chatbot-langchain-groq
+git clone https://github.com/pvnkm/RAG-chatbot.git
+cd RAG-chatbot
 ```
 
 ---
