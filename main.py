@@ -12,4 +12,4 @@ class Query(BaseModel):
 @app.post('/chat')
 def chat(query: Query):
     response = qa_chain.invoke(query.question)
-    return {"answer": response}
+    return {"answer": response['result']}
